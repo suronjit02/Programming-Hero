@@ -219,3 +219,29 @@ main {
     color: #757575;
     font-size: 16px;
 }
+
+/* footer styles */
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
