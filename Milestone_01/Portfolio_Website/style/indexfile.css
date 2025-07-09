@@ -158,16 +158,64 @@ main {
     color: #757575;
 }
 
-/* skills section */
+/* skills section /what I do */
 
 .skills-container {
     display: flex;
     gap: 24px;
+    margin-top: 50px;
 
+}
+
+.skills-tittle {
+    margin-bottom: 30px;
 }
 
 .skill {
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0 hsla(0, 0%, 0%, 0.2);
+    box-shadow: 0px 6px 50px 0 hsla(0, 0%, 0%, 0.06);
+}
+
+
+/* Resume section styles */
+
+.resume {
+    margin-top: 130px;
+}
+
+.resume-conteiner {
+    display: flex;
+    gap: 71px;
+}
+
+.experience {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-colum-tittle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+.experience-tittle {
+    font-size: 25px;
+    color: #474747;
+
+}
+
+.experience-sub-tittle {
+    font-size: 20px;
+    color: #757575;
+}
+
+.experience-description {
+    color: #757575;
+    font-size: 16px;
 }
